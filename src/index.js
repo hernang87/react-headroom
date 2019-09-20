@@ -114,6 +114,7 @@ export default class Headroom extends Component {
     }
   };
 
+
   getViewportHeight = () => window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
   getDocumentHeight = () => {
